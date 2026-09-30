@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f0ebd0">
+  <title>EQ Headphone Player</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="stage">
+    <div class="app" data-screen="home">
+      <section class="screen screen-home active" aria-label="Home">
+        <button class="hero pressable" type="button" aria-label="Play">
+          <span class="hero-purple"></span>
+          <img class="headphones" src="assets/home-a7643.svg" alt="Black and purple headphones">
+        </button>
+
+        <button class="shortcut shortcut-settings pressable" type="button" data-go="settings">
+          <span class="settings-glyph" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="shortcut-label">Settings</span>
+        </button>
+        <button class="shortcut shortcut-equalizer pressable" type="button" data-go="equalizer">
+          <span class="equalizer-glyph" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+          <span class="shortcut-label">Equalizer</span>
+        </button>
+
+        <section class="player" aria-label="Audio player">
+          <span class="player-green"></span>
+          <span class="album-card"></span>
+          <img class="audio-icon" src="assets/home-df95d.svg" alt="Audio output">
+          <h1>Song Name 1</h1>
+          <span class="title-line"></span>
+          <span class="time time-start">0:00</span>
+          <span class="time time-current">1:45</span>
+          <span class="time time-end">3:12</span>
+          <span class="progress-track"></span>
+          <span class="progress-fill"></span>
+          <span class="progress-knob"></span>
+          <input class="progress-input" type="range" min="0" max="192" value="105" aria-label="Playback position">
+          <button class="transport previous pressable" type="button" aria-label="Previous"><img src="assets/home-0a2aa.svg" alt=""></button>
+          <button class="transport shuffle pressable" type="button" aria-label="Shuffle"><img src="assets/home-e51a0.svg" alt=""></button>
+          <button class="transport next pressable" type="button" aria-label="Next"><img src="assets/home-c097b.svg" alt=""></button>
+          <button class="transport main-play pressable" type="button" aria-label="Play"><img src="assets/home-cbc92.svg" alt=""></button>
+        </section>
+      </section>
+
+      <section class="screen screen-settings" aria-label="Settings">
+        <div class="panel settings-panel">
+          <h1>Settings</h1>
+          <p>audio, playback &amp; device</p>
+          <div class="settings-list">
+            <div class="setting-row"><span>Spatial audio</span><button class="switch on" type="button" role="switch" aria-checked="true"><i></i></button></div>
+            <div class="setting-row"><span>Normalize volume</span><button class="switch on" type="button" role="switch" aria-checked="true"><i></i></button></div>
+            <div class="setting-row"><span>High quality audio</span><button class="switch on" type="button" role="switch" aria-checked="true"><i></i></button></div>
+            <div class="setting-row"><span>Crossfade</span><button class="switch" type="button" role="switch" aria-checked="false"><i></i></button></div>
+            <div class="setting-row"><span>Equalizer</span><button class="open-eq pressable" type="button" data-go="equalizer">Open EQ</button></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen screen-profile" aria-label="Profile">
+        <div class="panel profile-panel">
+          <h1>Profile</h1><p>your listening identity</p>
+          <div class="avatar"><span></span><img src="assets/profile-4aefd.svg" alt=""><img src="assets/profile-4f32d.svg" alt=""></div>
+          <h2>Listener</h2><div class="plan">FREE PLAN</div>
+          <div class="profile-row"><i class="purple"></i><div><small>device</small><strong>iPhone</strong></div></div>
+          <div class="profile-row"><i class="coral"></i><div><small>top genre</small><strong>Electronic</strong></div></div>
+          <button class="edit-profile pressable" type="button">edit profile</button>
+        </div>
+      </section>
+
+      <section class="screen screen-equalizer" aria-label="Equalizer">
+        <div class="panel equalizer-panel">
+          <h1>Equalizer</h1><p>Tap a band to shape your sound</p>
+          <button class="back pressable" type="button" data-go="settings" aria-label="Back to Settings">←</button>
+          <div class="bands"></div>
+          <hr>
+          <h2>QUICK PRESETS</h2>
+          <div class="presets"><button type="button" data-preset="BALANCED">BALANCED</button><button type="button" data-preset="WARM">WARM</button><button type="button" data-preset="PUNCH">PUNCH</button></div>
+          <div class="preset-card"><span></span><div><small>YOUR PRESET</small><strong>CUSTOM</strong></div></div>
+        </div>
+      </section>
+
+      <nav class="dock dock-home" aria-label="Main navigation">
+        <span class="dock-active"></span>
+        <img class="dock-home-icon" src="assets/home-ab9b7.svg" alt="">
+        <img class="dock-settings-icon" src="assets/home-8573f.svg" alt="">
+        <img class="dock-profile-icon" src="assets/home-e8d0e.svg" alt="">
+        <span class="dock-label">Home</span>
+        <button type="button" data-go="home" aria-label="Home"></button>
+        <button type="button" data-go="settings" aria-label="Settings"></button>
+        <button type="button" data-go="profile" aria-label="Profile"></button>
+      </nav>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
