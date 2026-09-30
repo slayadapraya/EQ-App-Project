@@ -16,4 +16,5 @@ No build step, package installation, account, API key, or external service is re
 - `index.html` — page structure
 - `styles.css` — responsive layout, styling, and animations
 - `script.js` — navigation, switches, player controls, equalizer presets, and saved settings
-- `assets/` — local icons and font files
+
+The font and vector artwork are embedded in these files, so the project has no external dependencies or missing asset paths.
