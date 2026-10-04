@@ -1,0 +1,15 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="85" height="80" viewBox="0 0 85 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 6" clip-path="url(#clip0_0_25)">
+<g id="Group 5">
+<path id="Ellipse 4" d="M85 37.5C85 60.9721 65.9721 80 42.5 80C19.0279 80 0 60.9721 0 37.5C0 14.0279 18.0279 59.5 41.5 59.5C64.9721 59.5 85 14.0279 85 37.5Z" fill="black"/>
+<circle id="Ellipse 3" cx="42.5" cy="37.5" r="37.5" fill="#80FFA4"/>
+<circle id="Ellipse 2" cx="42.5" cy="37.5" r="30" fill="#DA9EF7" stroke="black" stroke-width="5"/>
+</g>
+<path id="Polygon 1" d="M32.1627 28.0542C32.1644 24.9751 35.4983 23.0525 38.1641 24.5934L54.9533 34.2979C57.6191 35.8388 57.6171 39.6876 54.9499 41.226L38.1505 50.9136C35.483 52.4518 32.1509 50.5255 32.1525 47.4463L32.1627 28.0542Z" fill="white" stroke="black" stroke-width="4"/>
+</g>
+<defs>
+<clipPath id="clip0_0_25">
+<rect width="85" height="80" fill="white"/>
+</clipPath>
+</defs>
+</svg>
