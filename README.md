@@ -1,6 +1,6 @@
 # EQ App Project
 
-A mobile-sized, interactive headphone app that can be used to change the eq settings of your headphones along with iuntegrating your current music poroviders services into the app. (Library access still in work)
+A mobile-sized, interactive headphone app that can be used to change the eq settings of your headphones along with iuntegrating your current music poroviders services into the app (Library access etc still in work)
 ## Run locally
 
 Open the folder in VS Code, then either:
