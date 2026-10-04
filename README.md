@@ -1,7 +1,6 @@
 # EQ App Project
 
-A responsive, interactive headphone player interface built with plain HTML, CSS, and JavaScript.
-
+A mobile-sized, interactive headphone app that can be used to change the eq settings of your headphones along with iuntegrating your current music poroviders services into the app. (Library access still in work)
 ## Run locally
 
 Open the folder in VS Code, then either:
@@ -17,4 +16,4 @@ No build step, package installation, account, API key, or external service is re
 - `styles.css` — responsive layout, styling, and animations
 - `script.js` — navigation, switches, player controls, equalizer presets, and saved settings
 
-The font and vector artwork are embedded in these files, so the project has no external dependencies or missing asset paths.
+The `assets` folder contains the local font and artwork(Icons, backgrounds etc...). The project has no external dependencies.
