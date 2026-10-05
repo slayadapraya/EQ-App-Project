@@ -1,0 +1,19 @@
+PROD151 Assignment 4 Reflection
+
+Project summary:
+
+This project is a mobile-sized headphone and equalizer interface based on my Figma design. It includes animated navigation between Home, Settings, Profile, and Equalizer screens. The player has interactive controls and a draggable playback slider, while the equalizer includes eight adjustable frequency bands and preset buttons. Settings and slider values are saved in the browser using localStorage.
+
+What I learned:
+
+Through this project I learned how HTML, CSS, and JavaScript work together to create an interactive interface. I gained more experience positioning and styling elements from a Figma design, using CSS transitions and animations, and handling button and range-input events with JavaScript. I also learned how localStorage can preserve user settings after the page is refreshed. Testing and adjusting spacing, hitboxes, borders, and alignment showed me the importance of repeatedly comparing the finished website with the original design.
+
+Development process:
+
+I designed the interface in Figma and then developed it using HTML, CSS, and JavaScript. I tested the website locally and made visual and functional adjustments throughout development. The final project does not require a build process or external libraries ;)
+During the UX Lab we did i had useful feedback in regards to the equalizer not being tall enough and having lots of blank space so i have made that taller along with the ui bigger overall as this is design to be used as a mobile app.
+
+The only glaring problem that still exists is the lack of spaced used, and the animation when switching from the eq orb back to the profile tab, which shows the navy background pill for a second before the dock expands. This is not a problem though however when changing to either home or settings.
+AI assistance
+
+I used ChatGPT Codex as an assistance tool during development. It helped with translating parts of the Figma layout into an actual design e.g animations and layout.

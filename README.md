@@ -1,19 +1,40 @@
 # EQ App Project
 
-A mobile-sized, interactive headphone app that can be used to change the eq settings of your headphones along with iuntegrating your current music poroviders services into the app (Library access etc still in work)
+A mobile-sized, interactive headphone app for changing headphone EQ settings and integrating music-provider services. Library access is still in progress.
+
+## Design
+
+[View the Figma design](https://www.figma.com/design/Og6CTdEFSSMGZHIbwyUQqR/PROD151-Design-File?node-id=0-1&p=f&t=th1UHc9zECFjPvCd-0)
+
 ## Run locally
 
-Open the folder in VS Code, then either:
+I have made local run scripts depending on what OS you are on for convenience.
 
-- open `index.html` directly in a browser, or
-- use the VS Code Live Server extension and choose **Open with Live Server**.
+Linux or macOS:
 
-No build step, package installation, account, API key, or external service is required.
+```sh
+./start.sh
+```
+
+Windows:
+
+```bat
+start.bat
+```
+
+Then open [http://localhost:8000](http://localhost:8000) in a browser.
+
+This web app was developed under the assumption it would be used as a mobile layout and thus is not flexible and doesnt scale for desktop sites and has a fixed width. For a more optimal experience please change the view to mobile in the browser dev settings.
+Also, if you have a browser with forced dark mode then the colours will not be the same.
+
+The launchers use Python 3. No project packages, build step, account, or external service are required.
 
 ## Files
 
 - `index.html` — page structure
 - `styles.css` — responsive layout, styling, and animations
 - `script.js` — navigation, switches, player controls, equalizer presets, and saved settings
+- `start.sh` / `start.bat` — local server launchers
+- `PROJECT_OVERVIEW.txt` — project summary and learning reflection
 
-The `assets` folder contains the local font and artwork(Icons, backgrounds etc...). The project has no external dependencies.
+The `assets` folder contains the local font and artwork (Icons etc).

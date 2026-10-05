@@ -165,7 +165,7 @@ button {
 .settings-glyph {
   position: absolute;
   left: 10px;
-  top: 11.88px;
+  top: 10px;
   width: 32.5px;
   height: 31.25px;
 }
@@ -217,8 +217,8 @@ button {
 
 .equalizer-glyph {
   position: absolute;
-  left: 19.38px;
-  top: 10.62px;
+  left: 8px;
+  top: 8px;
   width: 31.88px;
   height: 33.75px;
 }
@@ -800,7 +800,7 @@ button {
 .dock {
   position: absolute;
   left: 57.56px;
-  top: 733.58px;
+  top: 710px;
   width: 259.88px;
   height: 59.4px;
   z-index: 10;
@@ -991,7 +991,7 @@ button {
   position: absolute;
   z-index: 6;
   left: 220px;
-  top: 0;
+  top: -3px;
   width: 59.4px;
   height: 59.4px;
   padding: 0;
@@ -1008,8 +1008,8 @@ button {
 }
 
 .eq-orb img {
-  width: 31.88px;
-  height: 33.75px;
+  width: 29px;
+  height: 30px;
 }
 
 @keyframes eq-orb-in {
